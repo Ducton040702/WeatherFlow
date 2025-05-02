@@ -15,7 +15,11 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "33CC10EC2044A3C60003C045"
+<<<<<<< HEAD
                BuildableName = "weather_flow_final.app"
+=======
+               BuildableName = "weather_flow_fixed.app"
+>>>>>>> 5392ad10837df96b261404fa22f19eafdb32f353
                BlueprintName = "Runner"
                ReferencedContainer = "container:Runner.xcodeproj">
             </BuildableReference>
@@ -31,7 +35,11 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "33CC10EC2044A3C60003C045"
+<<<<<<< HEAD
             BuildableName = "weather_flow_final.app"
+=======
+            BuildableName = "weather_flow_fixed.app"
+>>>>>>> 5392ad10837df96b261404fa22f19eafdb32f353
             BlueprintName = "Runner"
             ReferencedContainer = "container:Runner.xcodeproj">
          </BuildableReference>
@@ -66,7 +74,11 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "33CC10EC2044A3C60003C045"
+<<<<<<< HEAD
             BuildableName = "weather_flow_final.app"
+=======
+            BuildableName = "weather_flow_fixed.app"
+>>>>>>> 5392ad10837df96b261404fa22f19eafdb32f353
             BlueprintName = "Runner"
             ReferencedContainer = "container:Runner.xcodeproj">
          </BuildableReference>
@@ -83,7 +95,11 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "33CC10EC2044A3C60003C045"
+<<<<<<< HEAD
             BuildableName = "weather_flow_final.app"
+=======
+            BuildableName = "weather_flow_fixed.app"
+>>>>>>> 5392ad10837df96b261404fa22f19eafdb32f353
             BlueprintName = "Runner"
             ReferencedContainer = "container:Runner.xcodeproj">
          </BuildableReference>

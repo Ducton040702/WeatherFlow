@@ -8,7 +8,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
+<<<<<<< HEAD
 import 'package:weather_flow_final/main.dart';
+=======
+import 'package:weather_flow_fixed/main.dart';
+>>>>>>> 5392ad10837df96b261404fa22f19eafdb32f353
 
 void main() {
   testWidgets('Counter increments smoke test', (WidgetTester tester) async {

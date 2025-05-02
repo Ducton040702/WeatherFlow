@@ -1,6 +1,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
     <application
+<<<<<<< HEAD
         android:label="weather_flow_final"
+=======
+        android:label="weather_flow_fixed"
+>>>>>>> 5392ad10837df96b261404fa22f19eafdb32f353
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

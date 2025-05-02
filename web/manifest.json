@@ -1,6 +1,11 @@
 {
+<<<<<<< HEAD
     "name": "weather_flow_final",
     "short_name": "weather_flow_final",
+=======
+    "name": "weather_flow_fixed",
+    "short_name": "weather_flow_fixed",
+>>>>>>> 5392ad10837df96b261404fa22f19eafdb32f353
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
