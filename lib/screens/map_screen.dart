@@ -14,10 +14,10 @@ class MapScreen extends StatelessWidget {
           center: LatLng(40.7128, -74.0060), // NYC example
           zoom: 10.0,
         ),
-        layers: [
-          TileLayerOptions(
+        children: [
+          TileLayer(
             urlTemplate: 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
-            subdomains: ['a', 'b', 'c'],
+            subdomains: const ['a', 'b', 'c'],
           ),
         ],
       ),

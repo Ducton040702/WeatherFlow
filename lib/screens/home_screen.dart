@@ -4,7 +4,7 @@ import '../widgets/forecast_tile.dart';
 import '../services/weather_service.dart'; // OpenWeatherMap API
 import '../services/firebase_service.dart'; // Firebase service
 import 'package:share_plus/share_plus.dart';
-import 'map_screen.dart';
+import 'package:weather_flow/screens/map_screen.dart';
 import 'community_screen.dart';
 
 class HomeScreen extends StatelessWidget {
