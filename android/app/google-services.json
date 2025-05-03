@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "707147239474",
-    "project_id": "weatherflow-8b8e9",
-    "storage_bucket": "weatherflow-8b8e9.firebasestorage.app"
+    "project_number": "620058340943",
+    "project_id": "weather-1650a",
+    "storage_bucket": "weather-1650a.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:707147239474:android:d24534e9d37ce066b12c2b",
+        "mobilesdk_app_id": "1:620058340943:android:1860740d0f82ebbaa1843a",
         "android_client_info": {
           "package_name": "com.example.weather_flow_fixed"
         }
@@ -15,26 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyCgWUFUvXPLpPIkrhoAqgYb72n6aBPtORE"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": []
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:707147239474:android:56c4ee01cedea28cb12c2b",
-        "android_client_info": {
-          "package_name": "com.example.weatherflow"
-        }
-      },
-      "oauth_client": [],
-      "api_key": [
-        {
-          "current_key": "AIzaSyCgWUFUvXPLpPIkrhoAqgYb72n6aBPtORE"
+          "current_key": "AIzaSyB9wAWprdVvJW6o_dbHH4fmQXKOnzhQzZQ"
         }
       ],
       "services": {
