@@ -2,9 +2,10 @@ import 'package:flutter/material.dart';
 import '../widgets/weather_card.dart';
 import '../widgets/forecast_tile.dart';
 import '../services/weather_service.dart'; // OpenWeatherMap API
-import '../services/firebase_service.dart'; // ✅ Firebase service
+import '../services/firebase_service.dart'; // Firebase service
 import 'package:share_plus/share_plus.dart';
-
+import 'map_screen.dart';
+import 'community_screen.dart';
 
 class HomeScreen extends StatelessWidget {
   @override
@@ -60,7 +61,10 @@ class HomeScreen extends StatelessWidget {
                 Expanded(
                   child: Column(
                     children: [
-                      _buildSideButton('Rain starting in 10 min', Colors.lightBlue),
+                      _buildSideButton(
+                        'Rain starting in 10 min',
+                        Colors.lightBlue,
+                      ),
                       _buildSideButton('Custom theme', Colors.grey),
                       _buildSideButton('Share', Colors.green),
                       _buildSideButton('Report', Colors.red),
@@ -93,14 +97,31 @@ class HomeScreen extends StatelessWidget {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Text('7-day forecast',
-                      style: TextStyle(
-                          fontSize: 20, color: Colors.lightBlue, fontWeight: FontWeight.bold)),
+                  Text(
+                    '7-day forecast',
+                    style: TextStyle(
+                      fontSize: 20,
+                      color: Colors.lightBlue,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
                   SizedBox(height: 8),
-                  Text('Tuesday 78° ☀️', style: TextStyle(color: Colors.lightBlue)),
-                  Text('Wednesday 70° 🌧️', style: TextStyle(color: Colors.lightBlue)),
-                  Text('Thursday 69° ⚡', style: TextStyle(color: Colors.lightBlue)),
-                  Text('Friday 75° ☁️', style: TextStyle(color: Colors.lightBlue)),
+                  Text(
+                    'Tuesday 78° ☀️',
+                    style: TextStyle(color: Colors.lightBlue),
+                  ),
+                  Text(
+                    'Wednesday 70° 🌧️',
+                    style: TextStyle(color: Colors.lightBlue),
+                  ),
+                  Text(
+                    'Thursday 69° ⚡',
+                    style: TextStyle(color: Colors.lightBlue),
+                  ),
+                  Text(
+                    'Friday 75° ☁️',
+                    style: TextStyle(color: Colors.lightBlue),
+                  ),
                 ],
               ),
             ),
